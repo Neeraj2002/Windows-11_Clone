@@ -1,0 +1,81 @@
+.windows-box{
+    width: 98%;
+    max-width: 550px;
+    max-height: 75%;
+    padding: 30px 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+
+    position: absolute;
+    left: 50%;
+    bottom: -100%;
+    transform: translateX(-50%);
+
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s ease;
+
+}
+
+.tools-box {
+    padding: 15px 25px;
+    width: 98%;
+    max-width: 650px;
+  }
+
+.row{
+  display: table;
+  clear: both;
+}
+
+.active{
+    bottom: 70px;
+    visibility: visible;
+    opacity: 1;
+}
+
+.heading {
+    float: left;
+    width: 50%;
+    height: 1px;
+  }
+
+
+.pinned-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .recommended-box {
+    padding: 0 25px;
+  
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .profile-box {
+    background-color: rgba(210, 214, 207, 0.7);
+    padding: 15px 50px;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .profile {
+    display: flex;
+    align-items: center;
+  }
+  .user-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+    padding-top: 3px;
+    font-size: 20px;
+  }
+  
+  .poweroff-icon {
+    font-size: 18px;
+  }

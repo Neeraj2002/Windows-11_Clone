@@ -1,0 +1,11 @@
+.recommended-item-box {
+    width: calc(100% / 2);
+    display: flex;
+    align-items: center;
+  }
+  
+  .recommended-item-image {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+  }
